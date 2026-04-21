@@ -1,5 +1,5 @@
 # Jailbreaking LLM Morality
-Code repo for ACL 2026 finding paper: __Jailbreaking Large Language Models with Morality Attacks__
+Code repo for ACL 2026 finding paper: [Jailbreaking Large Language Models with Morality Attacks](http://arxiv.org/abs/2604.17053).
 
 ### Data Construction
 We first sample and select instances from original dataset [Moral Story](https://huggingface.co/datasets/demelin/moral_stories) and [ValuePrism](https://huggingface.co/datasets/allenai/ValuePrism). The selected and preprocessed data instances are under `./data` folder, namely `moral_story_select_2500.jsonl` and `valueprism_select_2800.jsonl`.
